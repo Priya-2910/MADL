@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Admin Dashboard"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Post Event -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginBottom="15dp"
+            card:cardCornerRadius="12dp"
+            card:cardElevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/postEventBtn"
+                android:text="📢 Post Event"
+                android:textSize="18sp"
+                android:backgroundTint="#42A5F5"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- View Attendance -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginBottom="15dp"
+            card:cardCornerRadius="12dp"
+            card:cardElevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/viewAttendanceBtn"
+                android:text="📋 View Attendance"
+                android:textSize="18sp"
+                android:backgroundTint="#66BB6A"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Approve Leave -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginBottom="15dp"
+            card:cardCornerRadius="12dp"
+            card:cardElevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/approveLeaveBtn"
+                android:text="📝 Approve Leave"
+                android:textSize="18sp"
+                android:backgroundTint="#FFA726"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Event Analysis -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginBottom="15dp"
+            card:cardCornerRadius="12dp"
+            card:cardElevation="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/analysisBtn"
+                android:text="📊 Event Analysis"
+                android:textSize="18sp"
+                android:backgroundTint="#AB47BC"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Logout -->
+
+        <Button
+            android:id="@+id/logoutBtn"
+            android:text="Logout"
+            android:textSize="16sp"
+            android:backgroundTint="#EF5350"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

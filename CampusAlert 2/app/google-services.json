@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "791738802614",
+    "project_id": "campusalert2026",
+    "storage_bucket": "campusalert2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791738802614:android:b5e3e8e789219bf6286117",
+        "android_client_info": {
+          "package_name": "com.example.campusalert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBY1HTBcL5wZ9nyZE4H0qk0vd5aJjA3Xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
